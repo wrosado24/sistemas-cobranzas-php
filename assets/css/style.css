@@ -1,0 +1,15 @@
+.alert-danger p{
+  margin-bottom: 0.2rem;
+}
+
+@media print {
+    
+    body.modal-open {
+        visibility: hidden;
+    }
+
+    body.modal-open .modal .modal-header,
+    body.modal-open .modal .modal-body {
+        visibility: visible; /* make visible modal body and header */
+    }
+}
